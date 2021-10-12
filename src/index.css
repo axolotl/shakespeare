@@ -1,0 +1,75 @@
+/* default react styles */
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* page styles */
+.page_content {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+/* header styles */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+img {
+	height: 150px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+/* selection options */
+.sortBy_radios {
+	display: flex;
+	align-items: center;
+}
+
+.sortBy_radios > p {
+	margin-right: 10px;
+}
+
+.sortBy_radios > input {
+	margin-right: 10px;
+}
+
+/* review styles */
+.review {
+	margin: 10px 0;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.review > * {
+	margin: 3px;
+}
+
+.quote {
+	font-style: italic;
+}
+
+/* pagination */
+.pagination button {
+	margin: 15px 15px 0 0;
+	padding: 5px;
+}
