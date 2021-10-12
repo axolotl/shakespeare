@@ -1,6 +1,6 @@
 # Shakespeare Quote Ratings
 
-App is build with create-react-app.
+App is built with create-react-app.
 
 ## Getting Started
 
